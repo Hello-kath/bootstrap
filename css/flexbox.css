@@ -1,0 +1,41 @@
+body{
+    background-color: blanchedalmond;
+}
+.container{
+    border: 2px solid green;
+    height: 600px;
+    /* flex-box */
+    display: flex;
+    /* los ubica de manera horizontal */
+    /* flex-direction: colum-reverse; */
+    /* el wrap funciona como forma de envoltura, basica,menmte envuelve todo para que las funcionalidades no se salgan, algo similar a lo responsive */
+    /* flex-wrap:wrap; */
+    /* flex-wrap:wrap-reverse;este se envuelve ensima delelemento a diferencia del anterior que es haci abajo */
+    flex-wrap:wrap;
+
+    justify-content: center;
+    /* align-items: flex-end; */
+    align-items: stretch;
+}
+
+.item{
+    border: 1px solid red;
+    background-color: aqua;
+    margin: 2px;
+    
+}
+/* .item-1{
+    order: 3;
+}
+.item-2{
+  order: 1;
+    
+}
+.item-7{
+    order: 2;
+} */
+/* es decir que toma 4 espacios delitem 5 */
+.item-5{
+    order: 4;
+}
+
